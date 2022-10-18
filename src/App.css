@@ -1,90 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: #d9deff;
-    font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #d9deff;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+  color: #6057ff;
+  font-size: 35px;
+  font-weight: 600;
 }
 section.chat-section {
-    width: 800px;
-    max-width: 90%;
-    background: #fff;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    border-radius: 15px;
+  width: 800px;
+  max-width: 90%;
+  background: #fff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
 }
 .brand {
-    padding: 20px;
-    background: #7abdff;
-    display: flex;
-    align-items: center;
+  padding: 20px;
+  background: #7abdff;
+  display: flex;
+  align-items: center;
 }
 .brand h1 {
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #444;
-    margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #444;
+  margin-left: 10px;
 }
 .msgArea {
-    height: 500px;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
-    padding-top: 40px;
-    margin: 3px;
+  height: 500px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-top: 40px;
+  margin: 3px;
 }
 textarea {
-    width: 80%;
-    border: none;
-    padding: 20px;
-    font-size: 16px;
-    outline: none;
-    margin-top:10px;
-    background: #FBFBFB;
-    resize: none;
+  width: 80%;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  outline: none;
+  margin-top: 10px;
+  background: #fbfbfb;
+  resize: none;
 }
 
 .message {
-    padding: 20px; 
-    border-radius: 4px; 
-    margin-bottom: 40px;
-    max-width: 300px;
-    position: relative;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  max-width: 300px;
+  position: relative;
 }
 .incoming {
-    background: #a29dff;
-    color: #fff;  
-    margin: 5px;
-    padding:10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  background: #a29dff;
+  color: #fff;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
 .incoming h4 {
-    color: #333;
-    font-size: 18px;
-    margin-bottom: 4px;
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 4px;
 }
 .username {
-    height: 50px;
-    width: 300px;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
 }
 
 .submitButton {
   background-color: #7abdff;
   margin: 10px;
-  width:100px !important;
+  width: 100px !important;
   cursor: pointer;
   border-radius: 10px;
 }

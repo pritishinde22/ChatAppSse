@@ -48,7 +48,7 @@ function App() {
 
   return (
     <>
-    
+    <header className="header">Chat App</header>
       <section className="chat-section">
         <div className="msgArea">
           {facts &&
